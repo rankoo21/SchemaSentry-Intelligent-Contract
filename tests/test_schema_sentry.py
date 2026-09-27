@@ -10,5 +10,5 @@ def test_guards(e):
  c.register_contract('API-1','https://api.example/data','{"id":"string"}')
  with pytest.raises(U): c.register_contract(' api-1 ','https://other.example/data','{"id":"string"}')
 def test_forged_validator_rejected(e):
- _,c,q,b,U=e;c.register_contract('API-2','https://api.example/data','{"id":"string"}');body='{"id":1}';b.extend([body,body]);q.extend(['{"status":"DRIFTED","summary":"Type changed.","breaking_paths":["id"]}','{"status":"COMPATIBLE","summary":"forged","breaking_paths":[]}'])
+ _,c,q,b,U=e;c.register_contract('API-2','https://api.example/data','{"id":"string"}');b.extend(['{"id":1}','{"id":"validator-view"}'])
  with pytest.raises(U): c.audit_contract('API-2')
