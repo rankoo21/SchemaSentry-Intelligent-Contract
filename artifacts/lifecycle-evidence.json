@@ -1,0 +1,15 @@
+{
+  "network": "studionet",
+  "SchemaSentry": {
+    "address": "0x929Db0c16c3AF04184fEF4793F38c359E577F0DB",
+    "register_transaction": "0x7aeba673e2dbb90238b7e82f823bfb5a51169c48238dba8926a3f158bf39440b",
+    "audit_transaction": "0xb4c099a97ae8cf7abeb13a0a4979dc019f81e018dd4768e44c9fcaeb0435609b",
+    "result": "MAJORITY_AGREE/SUCCESS"
+  },
+  "LicenseLoom": {
+    "address": "0x6c2301770Ad5c30716C1D57A730039E9baf6afEA",
+    "register_transaction": "0x2b42bcf9449c9e1f1d0530d62573e09ff8c80ecdba5d52698f99b815b1536d4f",
+    "audit_transaction": "0x3070996082829c3b214a84bcd830bf99d41ba8712d9ffccac2cdd81b4e2da219",
+    "result": "MAJORITY_AGREE/SUCCESS"
+  }
+}
