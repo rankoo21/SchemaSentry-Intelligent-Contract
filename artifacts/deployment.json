@@ -1,0 +1,8 @@
+{
+  "name": "SchemaSentry",
+  "address": "0x5187a103d4F4a831f6abcCA5227f80FF7baB1FE4",
+  "transaction": "0x858cebb4c763f2ce43183b28e6826d51fb463d7c9c0d2abfac8a1b1524ac1ccb",
+  "source_sha256": "eb5e3edd56f50e2bfb3b70465f8d784810608ff7dc2f6d65d63ad555fc8d4d4b",
+  "network": "studionet",
+  "source_verified": true
+}
